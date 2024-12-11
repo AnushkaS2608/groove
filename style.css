@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Ubuntu&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.logo img{
+    width: 47px;
+    padding: 0px 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.container{
+    min-height: 70vh;
+    display: flex;
+    color: white;
+    font-family: "Carme", sans-serif;;
+    background-position: cover;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url('cover.jpg');
+    background-size: cover;
+    flex-direction: column;
+   
+}
+.songItem{
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    height: 34px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 13px;
+    justify-content: space-between;
+    
+}
+.songItem span{
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-size: x-large;
+}
+.songplay i{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.songitemcontainer
+{
+    margin-top: 15px;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  bottom: 0px;
+}
+.icon{
+    margin-top: 5px;
+}
+#progressbar{
+    width: 85vw;
+    margin-bottom: 7px;
+    cursor:pointer;
+}
+.icon i{
+    cursor: pointer;
+}
+.songItem img{
+    width: 45px;
+    border-radius: 25px;
+    margin: 10px 0px;
+}
+
+.songinfo
+{  display: flex;
+    align-items: center;
+
+    position: absolute;
+    left:7vw;
+    margin-top: 12px;
+     font-family: "Carme", sans-serif;
+     gap:30px
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+#Mastersong
+{
+     display:none;
+}
+
